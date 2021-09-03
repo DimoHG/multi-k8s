@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95f54153-4881-474b-b59a-c8ce234c1bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/client-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/database-persistent-volume-claim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/ingres-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/kubernetes-dashboard.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/worker-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Dockerfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/server/Dockerfile.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1xVJSyGUPq24ic1Jj88q5jPqHoN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Docker.client/Dockerfile.dev">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client/Dockerfile.dev" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="client/Dockerfile.dev" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="nginx/Dockerfile.dev" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="nginx/Dockerfile.dev" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="server/Dockerfile.dev" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="server/Dockerfile.dev" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.client/Dockerfile.dev" />
+        <item itemvalue="Docker.nginx/Dockerfile.dev" />
+        <item itemvalue="Docker.server/Dockerfile.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95f54153-4881-474b-b59a-c8ce234c1bf7" name="Default Changelist" comment="" />
+      <created>1630434325788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630434325788</updated>
+      <workItem from="1630434326937" duration="7823000" />
+      <workItem from="1630597726052" duration="139000" />
+      <workItem from="1630597878444" duration="223000" />
+      <workItem from="1630598254102" duration="94000" />
+      <workItem from="1630598403367" duration="287000" />
+      <workItem from="1630598712844" duration="51000" />
+      <workItem from="1630598934569" duration="196000" />
+      <workItem from="1630599179372" duration="76000" />
+      <workItem from="1630599280514" duration="40000" />
+      <workItem from="1630599362867" duration="489000" />
+      <workItem from="1630599934937" duration="17000" />
+      <workItem from="1630599974256" duration="41000" />
+      <workItem from="1630600465838" duration="1077000" />
+      <workItem from="1630646061169" duration="11491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
